@@ -1,0 +1,229 @@
+/* Drop Down Menu*/
+/* Navbar container */
+.navbar {
+    margin-left:7%;
+    margin-top: 5%;
+    overflow: hidden;
+    background-color: rgb(172, 172, 247);
+    font-family: Arial;
+    
+  }
+  
+  /* Link */
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* dropdown container */
+  .dropdown {
+      background-color: red;
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; 
+    margin: 0; 
+  }
+  
+ 
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+body{
+    
+    background-color: rgb(172, 172, 247) ;
+}
+.leftlinks  {
+  background-image: url("g");
+  border-radius: 1px;
+    border: 1x solid #1178e0;
+    padding: 1px;
+    margin-top: 10%;
+    margin-left: 45%;
+    text-align: left;
+    background-color: #336699;
+    width: 150px;
+}
+
+.leftlinks a {
+  border-radius: 24px;
+    display: block;
+    margin: 3px 0px;
+    border-top: 1px solid #4C86C0;
+    border-left: 1px solid #4C86C0;
+    border-right: 1px solid #22476C;
+    border-bottom: 1px solid #22476C;
+    padding: 4px 10px;
+    text-align: center;
+    background-color: #336699;
+    color: #EDEDED;
+    text-decoration: none;
+}
+
+.leftlinks a:link {
+    color: #d6d1d1;
+}
+
+.leftlinks a:visited {
+    color: #EDEDED
+}
+
+.leftlinks a:hover{
+    display: block;
+    margin:3px 0px;
+    border-top: 1px solid #22476C;
+    border-left: 1px solid #22476C;
+    border-right: 1px solid #4686C0;
+    border-bottom: 1px solid #4C86C0;
+    padding: 5px 9px 3px 11px;
+    text-align: center;
+    background-color: #336699;
+    color: #EED929;
+    text-decoration: none;
+}
+/*home ccs*/
+.home {
+  background-color: brown;
+  box-shadow: 0 50px 50px 0 rgba(225, 11, 11, 0.2);
+  max-width: 550px;
+  max-height: 270px;
+  margin: auto;
+  padding-top:0;
+  
+  text-align: center
+}
+.home td{
+    color : red;
+    background-color: #E6E6FA; border-width: 1px;
+    border-style: solid; border-color: blue; font-size: 15pt;
+     
+}
+.home table{
+  box-shadow: 0 30px 50px 0 rgba(225, 11, 11, 0.2);
+  width: 550;
+}
+
+.paragraph {
+  margin-top: 50px;
+}
+.paragraph h1{
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  letter-spacing: -1px;
+}
+.paragraph p{
+  text-indent: 30px;
+  text-align: justify;
+}
+
+/*Pendidikan*/
+.pendidikan tr{
+    text-align: center;
+}
+.pendidikan th{
+        color: #FFFFFF; background-color: #336699; border-width: 1px;
+        border-style: solid; border-color: red; font-size: 9pt;    
+}
+.pendidikan td{
+    color : red;
+    background-color: #E6E6FA; border-width: 1px;
+    border-style: solid; border-color: blue; font-size: 9pt;
+}
+
+
+/* Organisasi */
+
+.Organisasi h1{
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  letter-spacing: -1px;
+}
+.Organisasi h2{
+  font-size: larger;
+  font-style: oblique;
+}
+
+/* contact person*/
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  color: rgb(67, 59, 59);
+  font-size: 18px;
+}
+
+.card a {
+  
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding-right: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 40px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+.card a:link{
+  text-decoration: none;
+}
+
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+.card img{
+  margin-top: 25px;
+  height: 250px;
+  width: 200px;
+}
